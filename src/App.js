@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+import DashBoard from './dashboard';
+import NavBar from './navbar';
 
 function App() {
   return (
-    <div>
-      Hi
-    </div>
+    <>
+      <NavBar></NavBar>
+      <DashBoard></DashBoard>
+    </>
+    
   );
 }
 
